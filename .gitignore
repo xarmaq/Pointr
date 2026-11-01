@@ -1,0 +1,35 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Build and tool output
+node_modules/
+target/
+build/
+dist/
+bin/
+obj/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.gradle/
+.kotlin/
+local.properties
+captures/
+*.apk
+*.aab
+*.exe
+*.dll
+*.pdb
+*.log

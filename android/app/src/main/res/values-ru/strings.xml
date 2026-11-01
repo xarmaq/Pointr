@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected">Подключено</string>
+    <string name="connecting">Подключение…</string>
+    <string name="reconnecting">Переподключение…</string>
+    <string name="disconnected">Нет связи</string>
+    <string name="searching">Ищем компьютеры…</string>
+    <string name="find_title">Выберите компьютер</string>
+    <string name="find_hint">Запустите Pointr на компьютере с Windows и подключите оба устройства к одной Wi‑Fi сети.</string>
+    <string name="paired">Сопряжён</string>
+    <string name="enter_ip">Ввести IP-адрес</string>
+    <string name="ip_hint">например, 192.168.1.20</string>
+    <string name="connect">Подключить</string>
+    <string name="cancel">Отмена</string>
+    <string name="pin_title">Введите код</string>
+    <string name="pin_hint">Код показан на %1$s</string>
+    <string name="pin_wrong">Неверный код, попробуйте ещё раз</string>
+    <string name="settings">Настройки</string>
+    <string name="pointer_speed">Скорость курсора</string>
+    <string name="acceleration">Ускорение</string>
+    <string name="scroll_speed">Скорость прокрутки</string>
+    <string name="natural_scroll">Естественная прокрутка</string>
+    <string name="natural_scroll_sub">Содержимое следует за пальцами</string>
+    <string name="haptics">Виброотклик</string>
+    <string name="laser_sensitivity">Чувствительность указки</string>
+    <string name="accent">Акцентный цвет</string>
+    <string name="computers">Компьютеры</string>
+    <string name="forget">Забыть</string>
+    <string name="switch_computer">Другой компьютер…</string>
+    <string name="disconnect">Отключиться</string>
+    <string name="laser">Указка</string>
+    <string name="blurred">Экран скрыт</string>
+    <string name="volume">Громкость</string>
+    <string name="no_windows">Нет открытых окон</string>
+    <string name="gestures_title">Жесты</string>
+    <string name="gestures">Тап — клик · тап двумя пальцами — правый клик\nУдержать и вести — перетаскивание · двойной тап и вести — тоже\nДва пальца — прокрутка · три пальца ← → — смена окна\nТри пальца ↑ — все окна · ↓ — рабочий стол</string>
+    <string name="error_connect">Не удалось связаться с %1$s</string>
+    <string name="volume_keys">Кнопки громкости листают слайды</string>
+    <string name="volume_keys_sub">Вверх — следующий, вниз — предыдущий</string>
+    <string name="screen_view">Показать экран ПК</string>
+    <string name="screen_denied">Трансляция выключена на ПК</string>
+    <string name="version">Версия %1$s</string>
+</resources>

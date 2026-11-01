@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible problem in Pointr
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include expected and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS versions, hardware, app version or commit, and relevant configuration.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove personal data, secrets and private audio before attaching.

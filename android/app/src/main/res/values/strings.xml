@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Pointr</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting…</string>
+    <string name="reconnecting">Reconnecting…</string>
+    <string name="disconnected">Not connected</string>
+    <string name="searching">Looking for computers…</string>
+    <string name="find_title">Choose a computer</string>
+    <string name="find_hint">Run Pointr on your Windows PC and connect both devices to the same Wi‑Fi.</string>
+    <string name="paired">Paired</string>
+    <string name="enter_ip">Enter IP address</string>
+    <string name="ip_hint">e.g. 192.168.1.20</string>
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="pin_title">Enter the code</string>
+    <string name="pin_hint">The code is shown on %1$s</string>
+    <string name="pin_wrong">Wrong code, try again</string>
+    <string name="settings">Settings</string>
+    <string name="pointer_speed">Pointer speed</string>
+    <string name="acceleration">Acceleration</string>
+    <string name="scroll_speed">Scroll speed</string>
+    <string name="natural_scroll">Natural scrolling</string>
+    <string name="natural_scroll_sub">Content follows your fingers</string>
+    <string name="haptics">Haptic feedback</string>
+    <string name="laser_sensitivity">Laser pointer sensitivity</string>
+    <string name="accent">Accent color</string>
+    <string name="computers">Computers</string>
+    <string name="forget">Forget</string>
+    <string name="switch_computer">Other computer…</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="laser">Laser</string>
+    <string name="blurred">Screen hidden</string>
+    <string name="volume">Volume</string>
+    <string name="no_windows">No open windows</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="gestures">Tap — click · two‑finger tap — right click\nHold, then move — drag · double‑tap and move — drag\nTwo fingers — scroll · three fingers ← → — switch apps\nThree fingers ↑ — Task View · ↓ — desktop</string>
+    <string name="error_connect">Couldn\'t reach %1$s</string>
+    <string name="volume_keys">Volume buttons change slides</string>
+    <string name="volume_keys_sub">Up — next, down — previous</string>
+    <string name="screen_view">Show PC screen</string>
+    <string name="screen_denied">PC has screen view off</string>
+    <string name="version">Version %1$s</string>
+</resources>
