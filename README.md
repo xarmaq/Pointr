@@ -1,20 +1,8 @@
-<div align="center">
+# Pointr
 
-<img src="docs/assets/hero.svg" alt="Pointr — your phone, your PC, one fluid connection" width="100%" />
+An Android trackpad, keyboard and presentation remote for Windows. The phone app connects to a Windows tray server over a local network.
 
-[![CI](https://github.com/xarmaq/Pointr/actions/workflows/ci.yml/badge.svg)](https://github.com/xarmaq/Pointr/actions/workflows/ci.yml)
-![Android](https://img.shields.io/badge/Android-10%2B-34D399?logo=android&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-x64-0078D4?logo=windows&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-Compose-A78BFA?logo=kotlin&logoColor=white)
-[![License: MIT](https://img.shields.io/badge/License-MIT-4C8DFF)](LICENSE)
-
-**A trackpad. A presentation remote. In your pocket.**
-
-Turn an Android phone into a wireless controller for a Windows PC over your local network.
-
-[Features](#features) · [Components](#components) · [Get started](#get-started) · [Build](#build-from-source) · [Protocol](#protocol)
-
-</div>
+[![CI](https://github.com/xarmaq/Pointr/actions/workflows/ci.yml/badge.svg)](https://github.com/xarmaq/Pointr/actions/workflows/ci.yml) · [MIT license](LICENSE)
 
 ## Overview
 
@@ -36,8 +24,6 @@ Pointr pairs a Kotlin / Jetpack Compose phone app with a small .NET Windows tray
 
 ## Components
 
-<img src="docs/assets/architecture.svg" alt="Pointr architecture: Android app connects over LAN to the Windows tray server using discovery, command, motion and screen channels" width="100%" />
-
 | Component | Responsibility |
 | --- | --- |
 | [`android/`](android/) | Kotlin, Jetpack Compose, Android 10+ client |
@@ -48,8 +34,6 @@ Pointr pairs a Kotlin / Jetpack Compose phone app with a small .NET Windows tray
 | `InputService`, `AudioService`, `WindowService` | Native desktop input, audio and window control |
 | `LaserOverlay`, `BlurOverlay`, `ScreenStreamer` | Presentation overlays and optional monitor streaming |
 | [`tools/`](tools/) | Icon generation and drawable conversion utilities |
-
-The illustrations above are explanatory vector artwork, not application screenshots.
 
 ## Get started
 
